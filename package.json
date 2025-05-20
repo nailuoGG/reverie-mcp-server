@@ -1,5 +1,5 @@
 {
-  "name": "knowledge-mcp-server",
+  "name": "reverie-mcp-server",
   "version": "0.1.0",
   "description": "A cross-project, cross-team, and best-practice knowledge base server for AI and developers",
   "type": "module",

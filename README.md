@@ -29,7 +29,7 @@ npm install
 ### Start MCP Server
 ```bash
 npm run build
-npx knowledge-mcp-server
+npx reverie-mcp-server 
 ```
 
 ### Directory Structure
