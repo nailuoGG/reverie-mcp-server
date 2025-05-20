@@ -1,10 +1,10 @@
-# Knowledge MCP Server
+# reverie-mcp-server
 
 > A cross-project, cross-team, and best-practice knowledge base server for AI and developers
 
 ## Overview
 
-Knowledge MCP Server is a knowledge base server based on the [Model Context Protocol (MCP)](https://github.com/modelcontextprotocol). It supports cross-project, cross-application, multi-level permissions, and both structured and RAG (vector search) knowledge storage and retrieval. It enables AI and developers to efficiently collaborate, accumulate, and reuse best practices.
+reverie-mcp-server is a knowledge base server based on the [Model Context Protocol (MCP)](https://github.com/modelcontextprotocol). It supports cross-project, cross-application, multi-level permissions, and both structured and RAG (vector search) knowledge storage and retrieval. It enables AI and developers to efficiently collaborate, accumulate, and reuse best practices.
 
 ## Features
 - **Atomic Markdown Knowledge Units**: Each knowledge point is an independent Markdown file, easy for manual maintenance and version control
