@@ -1,14 +1,12 @@
 {
-  "name": "easy-mcp-ts-template",
-  "version": "0.1.4",
-  "description": "A Model Context Protocol (MCP) server that enables LLMs to interact with Anki flashcard software through AnkiConnect",
+  "name": "knowledge-mcp-server",
+  "version": "0.1.0",
+  "description": "A cross-project, cross-team, and best-practice knowledge base server for AI and developers",
   "type": "module",
   "bin": {
-    "anki-mcp-server": "dist/index.js"
+    "knowledge-mcp-server": "dist/index.js"
   },
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "scripts": {
     "prepare": "husky",
     "prebuild": "node -p \"'export const MCP_VERSION = ' + JSON.stringify(require('./package.json').version) + ';'\" > src/_version.ts",
@@ -24,10 +22,7 @@
     "test:language": "node test-language.js"
   },
   "lint-staged": {
-    "src/**/*.{js,jsx,ts,tsx}": [
-      "biome format --write",
-      "git add"
-    ]
+    "src/**/*.{js,jsx,ts,tsx}": ["biome format --write", "git add"]
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "1.7.0",
@@ -50,21 +45,17 @@
     "typescript": "5.8.2"
   },
   "main": "build/index.js",
-  "keywords": [
-    "mcp",
-    "llm",
-    "model-context-protocol"
-  ],
+  "keywords": ["mcp", "llm", "model-context-protocol"],
   "author": "nailuoGG",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nailuoGG/easy-mcp-ts-template.git"
+    "url": "git+https://github.com/nailuoGG/reverie-mcp-server.git"
   },
   "bugs": {
-    "url": "https://github.com/nailuoGG/easy-mcp-ts-template/issues"
+    "url": "https://github.com/nailuoGG/reverie-mcp-server/issues"
   },
-  "homepage": "https://github.com/nailuoGG/easy-mcp-ts-template#readme",
+  "homepage": "https://github.com/nailuoGG/reverie-mcp-server#readme",
   "engines": {
     "node": ">=18.0.0"
   },
